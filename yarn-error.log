@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/bin/node /home/sahal/.yarn/bin/yarn.js add jest
+
+PATH: 
+  /home/sahal/.yarn/bin:/home/sahal/.config/yarn/global/node_modules/.bin:/home/sahal/.sdkman/candidates/gradle/current/bin:/home/sahal/Android/Sdk/tools:/home/sahal/Android/Sdk/platform-tools:/home/sahal/Android/Sdk:/home/sahal/GameEngine/cocos2d-x-3.16/templates:/home/sahal/GameEngine:/home/sahal/GameEngine/cocos2d-x-3.16/tools/cocos2d-console/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$JAVA_HOME/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/local/go/bin:/usr/local/cuda-9.1/bin:/home/sahal/go/bin:/home/sahal/Android/Sdk/tools:/home/sahal/Android/Sdk/platform-tools:/usr/local/share/scala/bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.9.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object._errnoException (util.js:1022:11)
+      at errnoException (dns.js:55:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "indian",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "repository": "https://www.github.com/knocus/indianjs.git",
+    "author": "Sahal Sajjad",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
